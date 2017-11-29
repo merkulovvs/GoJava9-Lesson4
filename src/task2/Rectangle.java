@@ -3,6 +3,7 @@ package task2;
 
 public class Rectangle {
 
+    // task 2
     public static void drawRectangle(int a, int b){
         for (int i = 0; i < a; i++)
             for (int j = 0; j <b; j++) {
@@ -13,6 +14,7 @@ public class Rectangle {
             }
     }
 
+    // task 3
     public static void drawRectangle(int a){
         for (int i = 0; i < a; i++)
             for (int j = 0; j <a; j++) {
@@ -23,7 +25,7 @@ public class Rectangle {
             }
     }
     public static void main(String[] args) {
-        drawRectangle(3, 5);
+        drawRectangle(3,5);
         System.out.println();
         drawRectangle(4);
     }
